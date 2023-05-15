@@ -1,0 +1,86 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.checker {
+    position: relative;
+    font-weight: 700;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.checker::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -20px;
+    right: -20px;
+    background-image: url("./shape.svg");
+    background-position: 0 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(100% + 40px);
+    height: 100%;
+    pointer-events: none;
+}
+
+.checker span {
+    padding: 10px 20px;
+    user-select: none;
+}
+
+.checker .tumbler {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 5px;
+    width: 35px;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    opacity: 0.5;
+    filter: blur(5px);
+    transition: all 0.3s;
+}
+
+.checker .tumbler.active {
+    background-color: red;
+    transform: translateX(100%);
+}
+
+.lamp.active {
+    position: relative;
+}
+
+.lamp.active::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 40px;
+    background-color: yellow;
+    opacity: 0.5;
+    border-radius: 30%;
+    filter: blur(5px);
+}
+
+.lamp.active .lamp_round {
+    fill: yellow;
+}
+
+.lamp_lines {
+    display: none;
+}
+
+.lamp.active .lamp_lines {
+    display: block;
+}

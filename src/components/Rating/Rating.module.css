@@ -1,0 +1,12 @@
+.stars_list {
+    display: flex;
+    gap: 5px;
+}
+
+.star {
+    cursor: pointer;
+}
+
+.star.active svg {
+    fill: url(#active);
+}
