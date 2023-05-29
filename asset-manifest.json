@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.defc041e.css",
-    "main.js": "/static/js/main.5dcd2673.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "static/media/shape.svg": "/static/media/shape.77f734a86c91836e38bb.svg",
-    "main.defc041e.css.map": "/static/css/main.defc041e.css.map",
-    "main.5dcd2673.js.map": "/static/js/main.5dcd2673.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/typescript-Dima/static/css/main.b710e57b.css",
+    "main.js": "/typescript-Dima/static/js/main.a69dd0a7.js",
+    "static/js/787.536ff570.chunk.js": "/typescript-Dima/static/js/787.536ff570.chunk.js",
+    "index.html": "/typescript-Dima/index.html",
+    "static/media/shape.svg": "/typescript-Dima/static/media/shape.77f734a86c91836e38bb.svg",
+    "main.b710e57b.css.map": "/typescript-Dima/static/css/main.b710e57b.css.map",
+    "main.a69dd0a7.js.map": "/typescript-Dima/static/js/main.a69dd0a7.js.map",
+    "787.536ff570.chunk.js.map": "/typescript-Dima/static/js/787.536ff570.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.defc041e.css",
-    "static/js/main.5dcd2673.js"
+    "static/css/main.b710e57b.css",
+    "static/js/main.a69dd0a7.js"
   ]
 }
