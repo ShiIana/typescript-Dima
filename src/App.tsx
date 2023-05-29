@@ -1,5 +1,5 @@
 import Accordion from "./components/Accordion/Accordion";
-import Rating from "./components/Rating/Rating";
+import {Rating} from "./components/Rating/Rating";
 import {FC, useState} from "react";
 import OnOff from "./components/OnOff/OnOff";
 import './App.css';

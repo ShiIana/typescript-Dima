@@ -1,14 +1,13 @@
 import styles from "./Rating.module.css";
-import {FC, useState} from "react";
+import {FC} from "react";
 import {ratingValueType, Title} from "../../App";
 
 type RatingPropsType = {
-    rating?: ratingValueType
+    rating: ratingValueType
     title: string
     setRating: (value: ratingValueType) => void
 }
-const Rating: FC<RatingPropsType> = ({title, rating = 0, setRating}) => {
-
+export const Rating: FC<RatingPropsType> = ({title, rating = 0, setRating}) => {
     return (
         <>
             <Title title={title}/>
@@ -49,5 +48,3 @@ const Star: FC<StarPropsType> = ({selected, setRating, value}) => {
         </span>
     )
 }
-
-export default Rating;
